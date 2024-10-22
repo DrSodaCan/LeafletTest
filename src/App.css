@@ -1,0 +1,23 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.content {
+  margin: 20px;
+}
+
+.map-container {
+  margin: 20px 0;
+}
+
+.controls {
+  margin: 20px;
+}
