@@ -7,14 +7,15 @@ This uses:
 - Leaflet with React Bindings
 
 Example code will be in App.JSX
-
+Link:
+https://drsodacan.github.io/LeafletTest/
 
 Current data structure of each waypoint:
 
-{
+`{
             id: x,
             name: "Waypoint x",
             coords: [longitute, latitude],
             description: "Description tag with an <a> redirect" +
                 "<a href=''>Text</a>"
-}
+}`
