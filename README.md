@@ -1,8 +1,20 @@
-# React + Vite
+# Leaflet test code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a test demonstration of Leaflet for demonstration.
 
-Currently, two official plugins are available:
+This uses:
+- ReactJS
+- Leaflet with React Bindings
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Example code will be in App.JSX
+
+
+Current data structure of each waypoint:
+
+{
+            id: x,
+            name: "Waypoint x",
+            coords: [longitute, latitude],
+            description: "Description tag with an <a> redirect" +
+                "<a href=''>Text</a>"
+}
