@@ -17,9 +17,9 @@ const App = () => {
         {
             id: 1,
             name: "Waypoint 1",
-            coords: [51.505, -0.09],
+            coords: [32.8328, -117.2],
             description: "Learn more about this location on Wikipedia: " +
-                "<a href='https://en.wikipedia.org/wiki/London' target='_blank'>London</a>"
+                "<a href='https://www.google.com/maps/?q=San%20Diego%2C%20California%2C%20United%20States' target='_blank'>San Diego</a>"
         },
         {
             id: 2,
@@ -33,7 +33,7 @@ const App = () => {
             name: "Waypoint 3",
             coords: [51.52, -0.12],
             description: "Check the history of this place: " +
-                "<a href='https://en.wikipedia.org/wiki/History_of_London' target='_blank'>History of London</a>"
+                "<a href='https://www.google.com/maps/?q=San%20Diego%2C%20California%2C%20United%20States' target='_blank'>History of La Jolla</a>"
         },
     ]);
 
@@ -43,8 +43,8 @@ const App = () => {
             id: newId,
             name: `Waypoint ${newId}`,
             coords: [
-                51.5 + Math.random() * 0.1, // generate a random position for demo purposes
-                -0.1 - Math.random() * 0.1,
+                32.8328 + Math.random() * 0.1, // generate a random position for demo purposes
+                -117.01 - Math.random() * 0.1,
             ],
             description: "New waypoint with info at " +
                 `<a href='https://example.com' target='_blank'>Example Link</a>`,
@@ -74,7 +74,7 @@ const App = () => {
             </div>
 
             <div className="map-container">
-                <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: "400px", width: "100%" }}>
+                <MapContainer center={[32.8328, -117.2]} zoom={13} style={{ height: "400px", width: "100%" }}>
                     <TileLayer
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
